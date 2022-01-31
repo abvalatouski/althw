@@ -5,7 +5,7 @@ all: server.s
 
 .PHONY: run
 run: server
-	sudo qemu-arm ./server
+	qemu-arm ./server
 
 .PHONY: clean
 clean:
